@@ -1,29 +1,21 @@
-# taskManager
+# TaskManager - Gerenciador de Tarefas
 
-This template should help get you started developing with Vue 3 in Vite.
+Este projeto tem como objetivo criar um **gestor de tarefas pessoal**, onde o usuário pode adicionar, listar, editar e excluir suas tarefas. A aplicação está em processo de finalização e, apesar de algumas telas estarem parcialmente criadas, as APIs e rotas já foram desenvolvidas e testadas com sucesso.
 
-## Recommended IDE Setup
+O projeto será hospedado no **Vercel** para facilitar o acesso e testes externos, caso surja interesse.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Funcionalidades
 
-## Customize configuration
+- **Criar tarefas**: Adicione novas tarefas ao seu gestor pessoal.
+- **Listar tarefas**: Visualize todas as tarefas cadastradas.
+- **Atualizar tarefas**: Edite as informações de tarefas já existentes.
+- **Deletar tarefas**: Remova tarefas do sistema.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Status do Projeto
 
-## Project Setup
+- **Telas**: Todas as telas estão parcialmente criadas. O front-end está em desenvolvimento com **Vue.js** e está em fase de finalização.
+- **APIs**: Todas as APIs e rotas foram criadas e testadas com sucesso utilizando **Node.js**, **Express** e **MySQL**.
+- **Hospedagem**: O projeto será disponibilizado no Vercel para que possa ser acessado e testado por outras pessoas.
 
-```sh
-npm install
-```
+---
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
