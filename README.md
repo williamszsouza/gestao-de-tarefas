@@ -10,6 +10,7 @@ O projeto será hospedado no **Vercel** para facilitar o acesso e testes externo
 - **Listar tarefas**: Visualize todas as tarefas cadastradas.
 - **Atualizar tarefas**: Edite as informações de tarefas já existentes.
 - **Deletar tarefas**: Remova tarefas do sistema.
+- **Filtrar tarefas**: Criei uma função de pesquisa para filtrar tarefas de acordo com um critério específico, facilitando a busca por tarefas.
 
 ## Status do Projeto
 
@@ -18,4 +19,3 @@ O projeto será hospedado no **Vercel** para facilitar o acesso e testes externo
 - **Hospedagem**: O projeto será disponibilizado no Vercel para que possa ser acessado e testado por outras pessoas.
 
 ---
-
