@@ -26,6 +26,6 @@ Funcionalidades já prontas:
 
 ## 📸 Demonstrações
 
-![demo](https://github.com/usuario/repositorio/raw/main/public/task.gif)
-![preview](https://github.com/usuario/repositorio/raw/main/public/menu.png)
+![demo](public/task.gif)
+![preview](public/menu.png)
 ![preview](public/card.png)
