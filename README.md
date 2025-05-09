@@ -29,7 +29,7 @@ Funcionalidades já prontas:
 
 
 ```md
-![demo](https://github.com/usuario/repositorio/raw/main/src/assets/task.gif)
-![preview](https://github.com/usuario/repositorio/raw/main/src/assets/menu.png)
-![preview](https://github.com/usuario/repositorio/raw/main/src/assets/card.png)
+![demo](https://github.com/usuario/repositorio/raw/main/public/task.gif)
+![preview](https://github.com/usuario/repositorio/raw/main/public/menu.png)
+![preview](https://github.com/usuario/repositorio/raw/main/public/card.png)
 
