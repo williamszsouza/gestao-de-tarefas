@@ -30,7 +30,20 @@ router.put('/:id', (req, res) => {
   db.query(
     'UPDATE tasks SET nametask = ?, infotask = ?, datetask = ? WHERE id = ?',
     [nametask, infotask, datetask, id],
-    (err, result) => {
+    (err) => {
+      if (err) return res.status(500).json(err);
+      res.json({ message: 'Atualizado com sucesso' });
+    }
+  );
+});
+// UPDATE STATUS 
+router.put('/status/:id', (req, res) => {
+  const { statustask } = req.body;
+  const { id } = req.params;
+  db.query(
+    'UPDATE tasks SET statustask = ? WHERE id = ?',
+    [statustask, id],
+    (err) => {
       if (err) return res.status(500).json(err);
       res.json({ message: 'Atualizado com sucesso' });
     }
@@ -40,7 +53,7 @@ router.put('/:id', (req, res) => {
 // DELETE
 router.delete('/:id', (req, res) => {
   const { id } = req.params;
-  db.query('DELETE FROM tasks WHERE id = ?', [id], (err, result) => {
+  db.query('DELETE  FROM tasks WHERE id = ?', [id], (err, result) => {
     if (err) return res.status(500).json({ err });
     res.json({ message: 'Deletado com sucesso' });
   });

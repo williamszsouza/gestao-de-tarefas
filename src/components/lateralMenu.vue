@@ -22,7 +22,6 @@
         padding-left: 20px;
         padding-top: 40px;
         padding-bottom: 20px;
-        border-right: 1px solid rgb(78, 76, 76);
         color: white;
         background-color: rgb(19, 19, 19);
     }

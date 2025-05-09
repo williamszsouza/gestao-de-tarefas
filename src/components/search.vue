@@ -1,15 +1,15 @@
 <template>
     <div id="container-search">
         <input type="text" placeholder="Search for a task" id="search">
-        <button id="addTask">+</button>
+        <button id="addTask" @click="CriarTask()">+</button>
     </div>
 </template>
 
 <style>
     #search{
         width: 90%;
-        padding: 10px;
-        border-radius: 10px;
+        padding: 20px;
+        border-radius: 999px;
         background-color: rgb(19, 19, 19);
         outline: none;
         border: none;
@@ -49,3 +49,15 @@
         transition: all ease-in-out 0.6s;
     }
 </style>
+
+
+<script >
+export default {
+    methods:{
+        CriarTask(){
+            this.$router.push('/createTask')
+        }
+    }
+}
+
+</script>
