@@ -29,6 +29,7 @@ Funcionalidades já prontas:
 
 
 ```md
-![demo](src/assets/task.gif)
-![preview](src/assets/menu.png)
-![preview](src/assets/card.png)
+![demo](public/task.gif)
+![preview](public/menu.png)
+![preview](public/card.png)
+
