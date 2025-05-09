@@ -29,7 +29,7 @@ Funcionalidades já prontas:
 
 
 ```md
-![demo](public/task.gif)
-![preview](public/menu.png)
-![preview](public/card.png)
+![(public/task.gif)
+!(public/menu.png)
+!(public/card.png)
 
