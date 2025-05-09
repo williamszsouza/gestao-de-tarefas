@@ -26,7 +26,7 @@ Funcionalidades já prontas:
 
 ## 📸 Demonstrações
 
-> Adicione aqui um **GIF** do funcionamento do app e imagens representativas da interface.
+
 
 ```md
 ![demo](assets/task.gif)
