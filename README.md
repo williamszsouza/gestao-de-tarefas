@@ -28,4 +28,4 @@ Funcionalidades já prontas:
 
 ![demo](https://github.com/usuario/repositorio/raw/main/public/task.gif)
 ![preview](https://github.com/usuario/repositorio/raw/main/public/menu.png)
-![preview](https://github.com/usuario/repositorio/raw/main/public/card.png)
+![preview](public/card.png)
