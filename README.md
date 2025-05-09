@@ -25,7 +25,9 @@ Funcionalidades já prontas:
 ---
 
 ## 📸 Demonstrações
-
+Gif das funcionalidades
 ![demo](public/task.gif)
+foto do menu
 ![preview](public/menu.png)
+foto dos cards das tarefas
 ![preview](public/card.png)
